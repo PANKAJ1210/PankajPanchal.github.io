@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Panchal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/portfolio.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-sm" id="nav">
+      
+      <button class="fas fa-times" id="closenav"></button>
+
+      <button class="fas fa-times" id="closenav1"></button>
+      
+      <div class="container-fluid" id="nav1">
+        
+        <div id="navbarSupportedContent" >
+
+          <ul class="navbar-nav mx-auto mb-2" id="navbar">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+    <button id="nav-toggler"><i class="fas fa-bars"></i></button>
+
+    <button class="fas fa-angle-double-right" id="opennav"></button>
+
+    
+    <!-- NAVBAR SCRIPT -->
+    
+    <script>
+
+      document.getElementById("opennav").onclick = function(){
+        document.getElementById("nav").style.width = "200px";
+      }
+      
+      document.getElementById("closenav").onclick = function(){
+        document.getElementById("nav").style.width = "0px";
+      }
+      
+      document.getElementById("nav-toggler").onclick = function(){
+        document.getElementById("nav").style.height = "10vh"
+      }
+
+      document.getElementById("closenav1").onclick = function(){
+        document.getElementById("nav").style.height = "0vh"
+      }
+
+    </script>
+    
+    <!-- BANNER SECTION -->
+  
+    <div class="container-fluid p-0" id="banner">
+  
+        <div class="row-md" id="row1">
+  
+          <div class="col-12" id="col1">
+  
+            <h1>PANKAJ PANCHAL</h1>
+            <h2>Web Developer</h2>
+  
+          </div>
+  
+        </div>
+    
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div class="container" id="about">
+
+      <div class="row" id="row1">
+
+        <div class="col text-center mt-4" id="col1">
+
+          <h1>About</h1>
+
+        </div>
+
+      </div>
+
+      <div class="row mt-5 mx-auto" id="row2">
+
+        <div class="col text-center my-3 py-4 px-4" id="col1">
+
+          <h2>Hello, I'm Pankaj </h2>
+          <h5 class="pt-3">Seeking for an entry level position with a growing and reputed organization to utilize my skills and enhance my knowledge with growing up trends</h5>
+
+        </div>
+
+      </div>
+
+      <div class="row mx-auto py-2" id="row3">
+
+        <div class="col-6 text-center my-3" id="col1">
+
+          <h3>EDUCATION</h3>
+          <h5 class="mt-4">BCA</h5>
+          <h5>Swami Vivekanand Subharti University</h5>
+          <h5>2019 - 2021</h5>
+
+        </div>
+
+        <div class="col-6 text-center my-3" id="col2">
+
+          <h3>CERTIFICATION</h3>
+          <h5 class="mt-4">Website Designing</h5>
+          <h5>Indian Institute Of Computer Science</h5>
+          <h5>2019 - 2021</h5>
+
+        </div>
+
+      </div>
+
+      <div class="row mx-auto mt-3" id="row4">
+
+        <div class="col text-center" id="col1">
+
+          <button><a href="FILE/PANKAJ RESUME.pdf">My Resume ( pdf )</a></button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- PORTFOLIO SECTION -->
+
+    <div class="container-fluid" id="portfolio">
+
+      <div class="row text-center my-5 pt-3" id="row1">
+
+        <div class="col" id="col1">
+
+          <h1>Portfolio</h1>
+
+        </div>
+
+      </div>
+
+      <div class="row mx-auto" id="row2">
+
+        <div class="col mb-5" id="col1">
+
+          <img class="img-fluid" src="IMAGES/Prime-pic-fix.html.png" alt="">
+
+          <div id="overlay">
+          
+            <a href="file/PRIME PIC FIX with BOOTSTRAP/Prime-pic-fix.html"><i class="fas fa-plus"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- CONTACT SECTION -->
+
+    <div class="container-fluid my-3" id="contact">
+
+      <div class="row text-center my-5" id="row1">
+
+        <div class="col" id="col1">
+
+          <h1>Contact</h1>
+
+        </div>
+
+      </div>
+
+      <div class="row m-0" id="row2">
+
+        <div class="col mx-3" id="col1">
+
+          <h2>Message me</h2>
+
+          <form>
+
+            <label>Name</label>
+            <br>
+            <input type="text">
+
+            <br>
+            <br>
+
+            <label>Email</label>
+            <br>
+            <input type="text">
+
+            <br>
+            <br>
+
+            <label>Subject</label>
+            <br>
+            <input type="text">
+
+            <br>
+            <br>
+
+            <label>Message</label>
+            <br>
+            <textarea id="msg" cols="30" rows="10"></textarea>
+
+            <br>
+            <br>
+
+            <button>Send Message</button>
+
+          </form>
+
+        </div>
+
+        <div class="col mx-3 text-center" id="col2">
+
+          <h2>Get in Touch</h2>
+
+          <ul>
+
+            <li>
+              
+              <i class="fas fa-user"></i>
+              <h4>Name</h4>
+              <p>Pankaj Panchal</p>
+
+            </li>
+
+            <li>
+
+              <i class="fas fa-map-marker-alt"></i>
+              <h4>Address</h4>
+              <p>Faridabad, Haryana</p>
+
+            </li>
+
+            <li>
+
+              <i class="far fa-envelope"></i>
+              <h4>Email</h4>
+              <p><a href = "mailto: panchal.pankaj1997@gmail.com">Panchal.pankaj1997@gmail.com</a></p>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+  </html>
